@@ -1,0 +1,517 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+ body {
+ /* background-color: black; */
+    background-size: cover; 
+    background-image: url(./assets/websitebackgroung.jpg);
+    background-repeat: no-repeat;
+    background-position: 100;
+    background-size:cover;
+    /* background-color: black;   */
+} 
+
+
+.main {
+    color: aliceblue;
+    font-size: 20px;
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 150px;
+    font-weight: bolder;
+}
+
+header, .logo, .header, .club {
+    color: red;
+}
+
+
+header, .logo, .header {
+    text-decoration: none;
+    color: white;
+}
+
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 30px;
+    
+}
+
+.navbar {
+    position: relative;
+    margin-left: 30vh;
+    display: inline-block;
+    
+}
+
+nav ul li a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+nav ul li a:hover {
+    color: red;
+    transition: 0.4s;
+    
+}
+
+button {
+    margin-left: 40px;
+    font-weight: bold;
+    background-color: red;
+    border: none;
+    border-radius: 100px;
+    padding: 12px 30px;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    transition: .4s;
+}
+button .button {
+    text-decoration: none;
+    color: white;
+}
+button:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.container {
+    width: 95%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    background: transparent;
+    
+    width: 50%;
+   height: 30px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 10;
+    margin-left: 90vh;
+    overflow: hidden;
+
+}
+main, .quote{
+    position: absolute;
+    bottom: 0;
+    animation: slider 6s linear infinite;
+}
+
+    
+
+
+main p{
+    color: tomato;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    
+    margin-top: 5px;
+    
+}
+
+@keyframes slider {
+    0%{transform: translateY(-85px);}
+    5%{transform: translateY(0px);}
+    30%{transform: translateY(0px);}
+    35%{transform: translateY(85px);}
+    65%{transform: translateY(85px);}
+    70%{transform: translateY(170px);}
+    100%{transform: translateY(170px);}
+}
+
+footer {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-left: 950px;
+  
+    
+}
+
+footer h2 {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    padding-right: 20px;
+}
+
+footer ul li{
+    display: inline-block;
+    align-items: center;
+    padding: 10px;
+}
+
+footer ul li a{
+    color: white;
+    font-size: 25px;
+}
+
+footer ul li a:hover {
+    color: red;
+    transition: 0.4s;
+
+}
+
+#face:hover {
+    color: blue;
+    transition: o.4s;
+}
+
+    /* css of gallery-gym */
+
+
+
+
+
+
+
+
+
+/* 
+  slider animation of image */
+/* .gallery-photo {
+   width: 700px;
+   height: 390px;
+   position: absolute;
+   display: flex;
+   position: relative;
+   margin-left: 350px;
+   margin-top: 70px;
+   
+   background-image: url(./assets/gallery1gym1.jpg); 
+   animation: slider 6s infinite linear;  
+}
+@keyframes  slider {
+    0%{background-image: url(./assets/gallery1gym1.jpg);}
+    25%{background-image: url(./assets/gallery2gym1.jpg);}
+    50%{background-image: url(./assets/gallery3gym1.jpg);}
+    75%{background-image: url(./assets/gallery4gym1.jpg);}
+} */
+
+    /* css of login */
+
+.form-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+    padding-bottom: 60px;
+    min-height: 70vh;
+  
+}
+.form-box .login {
+    padding: 20px 20px;
+    border-radius: 10px;
+    text-align: center;
+    background: white;
+    justify-content: center;
+
+}
+.form-box .login #login {
+    width: 100%;
+    align-items: center;
+    font-size: 17px;
+    background-color: azure;
+   border: none;
+   margin-bottom: 10px;
+   padding: 10px 0px;
+}
+.form-box .login #btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 30%;
+    padding: 10px 15px;
+    border: none;
+    background-color: red;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    transition: 0.4s;
+}
+.form-box .login #btn:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.form-box .login #new {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form-box .login #new #reg {
+    text-decoration: none;
+    color: blue;
+}
+.form-box .login #new #reg:hover {
+    color: red;
+    transition: 0.4s;
+}
+.registration-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: px;
+    padding-bottom: 60px;
+    min-height: 70vh;
+  
+}
+
+.registration-box .register {
+    padding: 20px 20px;
+    border-radius: 10px;
+    text-align: center;
+    background: white;
+    justify-content: center;
+    width: 500px;
+    box-shadow: 100vh 100vh;
+    
+}
+.registration-box .register #register {
+    width: 100%;
+    align-items: center;
+    font-size: 17px;
+    background-color: azure;
+   border: none;
+   margin-bottom: 10px;
+   padding: 10px 0px;
+
+}
+.registration-box .register #btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 30%;
+    padding: 10px 15px;
+    border: none;
+    background-color: red;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    transition: 0.4s;
+}
+.registration-box .register #btn:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+    /* css of membership */
+
+.container-mem {
+    display: flex;
+    box-sizing: border-box;
+    /* border: 2px solid white; */
+    width: 1250px;
+    height: 500px;
+    margin: auto;  
+}
+
+.container-mem .Mem {
+    
+    background-color:whitesmoke;
+   border-radius: 15%;
+    height: 250px;
+    width: 250px;
+    margin: 50px 50px;
+    padding: 50px 50px;
+
+}
+
+.container-mem .Mem h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    border-bottom: 4px solid red;
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+.container-mem .Mem #gold {
+    padding-bottom: 10px;
+}
+.container-mem .Mem ul {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#btn-gold {
+    font-size: 20px;
+    background-color: rgb(228, 222, 222);
+    color: black;
+    
+    border: none;
+    /* margin-top: 100px; */
+    /* bottom: 50px; */
+    margin-left: 40px;
+    padding: 10px 25px;
+    border-radius: 10%;
+}
+
+#btn-gold {
+    font-size: 20px;
+    background-color: rgb(228, 222, 222);
+    color: black;
+    
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+
+      /* css of about us */
+.container-map {
+    display: flex;
+    box-sizing: border-box;
+    /* border: 2px solid white; */
+    width: 1250px;
+    height: 500px;
+    align-items: center;
+    position: relative;
+    left: 50px;
+    justify-content: center;
+}
+
+.container-map .map {
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    width: 800px;
+    height: 350px;
+    display: inline-block;
+    align-items: center;   
+}
+
+.container-map .map iframe {
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+.container-map h3 {
+    position: relative;
+    left: 480px;
+    bottom: 200px;
+    text-decoration: none;
+    padding-bottom: 40px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.container-map h3 #us {
+    padding-right: 15px;
+    color: red;
+}
+
+    /* css of about us */
+.container-box {
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    
+}
+.container-aboutus {
+    background-color: white;
+    width: 900px;
+    height: 100px;
+    padding: 50px 50px;   
+    border-radius: 20px;
+    margin-left: 170px;
+    margin-top: 50px;
+}
+
+.container-aboutus h2 {
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+   
+   /* css of gallery */
+.container-gallery {
+    height: 400px;
+    width: 700px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 332.5px;
+    transform: translate(-50% -50%);
+}
+
+.gallery-gym {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar {
+    width: 50px;
+    height: 10px;
+    border: 2px solid white;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar:hover {
+    background: whitesmoke;
+    transition: 0.4s;
+}
+
+input[name="photo"]{
+    visibility: hidden;
+    position: absolute;
+   
+}
+
+.slider-gallery-gym {
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+.slide {
+    transition: 0.6s;
+    width: 20%;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+#im1:checked ~ .s1{
+    margin-left: 0%;
+}
+#im2:checked ~ .s1{
+    margin-left: -20%;
+}
+#im3:checked ~ .s1{
+    margin-left: -40%;
+}
+#im4:checked ~ .s1{
+    margin-left: -60%;
+}
+
